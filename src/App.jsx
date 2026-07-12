@@ -112,6 +112,16 @@ function normalizeEmail(value) {
   return value.startsWith('mailto:') ? value : `mailto:${value.trim()}`
 }
 
+function getEmailAddress(value) {
+  return (value || '').replace(/^mailto:/, '').trim()
+}
+
+function getGmailComposeLink(value) {
+  const address = getEmailAddress(value)
+  if (!address) return ''
+  return `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(address)}`
+}
+
 function normalizeWhatsApp(value) {
   const trimmed = value.trim()
   if (!trimmed) return ''
@@ -752,7 +762,7 @@ function PublicSite({
                 <a href={content.contact.whatsapp} target="_blank" rel="noreferrer">
                   WhatsApp
                 </a>
-                <a href={content.contact.email}>
+                <a href={getGmailComposeLink(content.contact.email)} target="_blank" rel="noreferrer">
                   Email
                 </a>
               </div>
@@ -807,7 +817,7 @@ function PublicSite({
               <a href={content.contact.whatsapp} target="_blank" rel="noreferrer">
                 WhatsApp
               </a>
-              <a href={content.contact.email}>
+              <a href={getGmailComposeLink(content.contact.email)} target="_blank" rel="noreferrer">
                 Email
               </a>
               <a href={content.contact.form} target="_blank" rel="noreferrer">
