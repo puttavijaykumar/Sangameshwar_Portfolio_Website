@@ -752,7 +752,7 @@ function PublicSite({
                 <a href={content.contact.whatsapp} target="_blank" rel="noreferrer">
                   WhatsApp
                 </a>
-                <a href={content.contact.email} target="_blank" rel="noreferrer">
+                <a href={content.contact.email}>
                   Email
                 </a>
               </div>
@@ -807,7 +807,7 @@ function PublicSite({
               <a href={content.contact.whatsapp} target="_blank" rel="noreferrer">
                 WhatsApp
               </a>
-              <a href={content.contact.email} target="_blank" rel="noreferrer">
+              <a href={content.contact.email}>
                 Email
               </a>
               <a href={content.contact.form} target="_blank" rel="noreferrer">
