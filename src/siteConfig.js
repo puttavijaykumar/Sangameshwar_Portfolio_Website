@@ -12,7 +12,7 @@ export const defaultSiteContent = {
   branding: {
     logoSrc: '/Logos/website_logo.jpeg',
     profilePhotoSrc: '/Logos/profile_photo.jpeg',
-    brandName: 'KUMMARI SANGAMESHWAR',
+    brandName: 'K SANGAMESHWAR',
     brandTag: 'Sports Psychologist | Mental Performance Consultant | Mental Skills Trainer | Cognitive Performance Specialist',
   },
   navigation: [
