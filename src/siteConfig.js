@@ -104,6 +104,18 @@ export const defaultSiteContent = {
     experience: [
       {
         role: 'Sports Psychologist',
+        organization: 'Physio Karma Solutions Pvt. Ltd. (in association with Ekam Consultants, Pune)',
+        years: 'June 2026 - Present',
+        highlights: [
+          'Delivered sports psychology interventions for table tennis athletes and shooters.',
+          'Conducted individualized mental skills training including imagery, goal setting, positive self-talk, confidence enhancement, emotional regulation, and attentional control.',
+          'Designed cognitive training sessions targeting attention, working memory, decision-making, reaction time, hand-eye coordination, spatial ability, and progressive vision training.',
+          'Tracked athlete progress through regular psychological assessments and performance reviews.',
+          'Worked collaboratively with coaches and support staff to optimize athlete performance.',
+        ],
+      },
+      {
+        role: 'Sports Psychologist',
         organization:
           'Physio Karma Solutions Pvt. Ltd. in association with SIXS Sports - Centre for Sports Science (In Association with Department of Youth Empowerment and Sport-Govt of Karnataka ), Bangalore',
         years: '2025 - Now',
