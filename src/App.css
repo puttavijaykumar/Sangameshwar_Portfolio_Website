@@ -114,9 +114,10 @@ a {
 }
 
 .brand-logo {
-  width: 4.4rem;
+  width: auto;
   height: 4.4rem;
-  object-fit: cover;
+  max-width: 12rem;
+  object-fit: contain;
   object-position: center;
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1212,8 +1213,9 @@ a {
 }
 
 .footer-logo {
-  width: 4rem;
+  width: auto;
   height: 4rem;
+  max-width: 11rem;
 }
 
 .footer-copy,
@@ -1709,7 +1711,7 @@ code {
   }
 
   .brand-logo {
-    width: 3.8rem;
+    width: auto;
     height: 3.8rem;
   }
 
@@ -1927,7 +1929,7 @@ code {
   }
 
   .brand-logo {
-    width: 3.3rem;
+    width: auto;
     height: 3.3rem;
     border-radius: 0.85rem;
   }
