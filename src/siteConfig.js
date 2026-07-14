@@ -12,8 +12,8 @@ export const defaultSiteContent = {
   branding: {
     logoSrc: '/Logos/website_logo.jpeg',
     profilePhotoSrc: '/Logos/profile_photo.jpeg',
-    brandName: 'K Sangameshwar | Performance Psychology',
-    brandTag: 'Mental conditioning for competitive athletes',
+    brandName: 'KUMMARI SANGAMESHWAR',
+    brandTag: 'Sports Psychologist | Mental Performance Consultant | Mental Skills Trainer | Cognitive Performance Specialist',
   },
   navigation: [
     { label: 'Home', href: '#home' },
