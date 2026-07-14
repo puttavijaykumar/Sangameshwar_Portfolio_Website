@@ -118,7 +118,7 @@ export const defaultSiteContent = {
         role: 'Sports Psychologist',
         organization:
           'Physio Karma Solutions Pvt. Ltd. in association with SIXS Sports - Centre for Sports Science (In Association with Department of Youth Empowerment and Sport-Govt of Karnataka ), Bangalore',
-        years: '2025 - Now',
+        years: 'Feb 2025 - Jun 2026',
         highlights: [
           'Provide advanced psychological counseling and mental skills training to national and elite-level athletes, including swimmers, football players, and injured athletes in rehabilitation.',
           'Deliver customized sports counseling programs focused on performance anxiety management, mental resilience, confidence building, and motivation enhancement during injury recovery.',
@@ -130,7 +130,7 @@ export const defaultSiteContent = {
       {
         role: 'Sports Psychologist',
         organization: 'Physio Karma Solutions Pvt. Ltd., New Delhi',
-        years: '2024 - Now',
+        years: 'Jan 2024 - Feb 2025',
         highlights: [
           'Conduct individual and group counseling sessions addressing performance anxiety, motivation, stress, emotional regulation, and mental health challenges faced by athletes.',
           'Design and implement structured mental skills training programs to enhance focus, concentration, goal setting, confidence, and mental toughness.',
